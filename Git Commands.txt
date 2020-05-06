@@ -1,0 +1,33 @@
+-create repository on website with name
+-click on clone and download to get the link and copy it
+-type--git clone copied link
+-type--cd repository_name--(to go into the repo folder)
+Now create a text file in the folder which got created while creating repository.
+
+-type--git add -A--(to tell git that the file will be added next)
+-type--git commit -m"file_name"
+-git push--(to add the file on website)
+
+For new folder in repo
+-click on master dropdown and add new branch with name
+-type--git checkout--(to tell in which branch u r present)
+-type--git checkout -b AWS master--(to shift from source(master) to destination branch(AWS) for the 1st time
+
+to shift into vice-versa--git checkout AWS/master
+
+To add file and edit in AWS-
+-create a file in AWS with .md extension.
+-type--git checkout -b AWS master--(to shift from source(master) to destination branch(AWS) for the 1st time
+-type--git checkout--(to tell in which branch u r present)
+-type--cd repository_name--(to go into the repo folder)
+-type cd AWS foldername created in repository (name of branch).
+-type--git add -A--(to tell git that the file will be added next)
+-type--git commit -m"file_name"
+-git push--(to add the file on website)
+
+# Divya--(for Heading)
+**Divya**--(for Bold)
+***Divya***--(for Italic)
+To add content in the file after heading-
+-add 1 senetence.
+-to add other sentence on next line add an enter after 1st sentence.
